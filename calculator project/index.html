@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="screen">
+          <span id="display">0</span>
+        </div>
+
+        <div class="buttons">
+          <button class="clear" data-action="clear">Clear</button>
+          <button class="sci" data-action="fact">x!</button>
+          <button class="sci" data-value="(">(</button>
+          <button class="sci" data-value=")">)</button>
+          <button class="sci" data-value="%">%</button>
+          <button class="del span2" data-action="del">DEL</button>
+
+          <button class="sci" data-action="inv">Inv</button>
+          <button class="sci" data-action="sin">sin</button>
+          <button class="sci" data-action="ln">ln</button>
+          <button class="num" data-value="7">7</button>
+          <button class="num" data-value="8">8</button>
+          <button class="num" data-value="9">9</button>
+          <button class="op" data-value="÷">÷</button>
+
+          <button class="sci" data-action="pi">π</button>
+          <button class="sci" data-action="cos">cos</button>
+          <button class="sci" data-action="log">log</button>
+          <button class="num" data-value="4">4</button>
+          <button class="num" data-value="5">5</button>
+          <button class="num" data-value="6">6</button>
+          <button class="op" data-value="×">×</button>
+
+          <button class="sci" data-action="e">e</button>
+          <button class="sci" data-action="tan">tan</button>
+          <button class="sci" data-action="sqrt">√</button>
+          <button class="num" data-value="1">1</button>
+          <button class="num" data-value="2">2</button>
+          <button class="num" data-value="3">3</button>
+          <button class="op" data-value="−">−</button>
+
+          <button class="sci" data-action="ans">Ans</button>
+          <button class="sci" data-action="exp">EXP</button>
+          <button class="sci" data-value="^">x^y</button>
+          <button class="num" data-value="0">0</button>
+          <button class="num" data-value=".">.</button>
+          <button class="equals" data-action="equals">=</button>
+          <button class="op" data-value="+">+</button>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
